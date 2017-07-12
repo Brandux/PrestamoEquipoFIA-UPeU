@@ -19,14 +19,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>:. Brandux .:</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="<c:url value='resources/js/jquery-3.2.1.min.js'/>" type="text/javascript"></script>
-        <script src="<c:url value='resources/js/bootstrap.min.js'/>" type="text/javascript"></script>
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-        <link href="<c:url value='resources/css/bootstrap.min.css'/>" rel="stylesheet" type="text/css"/>
-        <link href="<c:url value='resources/css/bootstrap.css'/>" rel="stylesheet" type="text/css"/>
+        <%@include file="../../jspf/head.jspf" %>
     
         <script type="text/javascript">            
            if (history.forward(1)) {
